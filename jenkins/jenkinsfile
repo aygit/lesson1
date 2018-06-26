@@ -16,7 +16,7 @@ pipeline {
   }
 
 
-   stage('Deploy) {
+   stage('Deploy') {
     steps  {
       sh  './jenkins/scripts/deploy.sh'
        echo ' app has been deplloyed successfully'
